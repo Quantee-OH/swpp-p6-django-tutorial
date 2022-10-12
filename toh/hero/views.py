@@ -4,9 +4,9 @@ import json
 from json.decoder import JSONDecodeError
 from .models import Hero
 
-# def index(request):
-#     return HttpResponse('Hello, world!')
-
+def index(request):
+     return HttpResponse('Hello, world!')
+# task
 def id(request, id):
     return HttpResponse(f'Your id is {id}!')
 
